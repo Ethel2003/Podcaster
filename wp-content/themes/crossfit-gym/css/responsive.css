@@ -1,0 +1,440 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+*{box-sizing:border-box;}
+.left, 
+.right, 
+.hdrcontact_details,
+.copyright-txt, 
+.design-by, 
+.powerby, 
+.left-column-40, 
+.right-column-60,
+.fcopy-right50,
+.fcopy-left50{ 
+text-align:center; 
+width:auto; 
+float:none; 
+}
+.container { 
+width:auto; 
+padding:0 20px;
+}
+.logo h1{ 
+font-size:30px;
+}
+.Bpostsbxstyle .blgimagebx.imgLeft{ 
+width:auto; 
+height:auto; 
+overflow:hidden; 
+float:none; 
+margin:0;
+padding:30px 30px 0 30px;
+}
+
+.Bpostsbxstyle .blgimagebx img{
+ height:auto; 
+ min-height: inherit;
+ }
+.Bpostsbxstyle{ 
+float:none; 
+width:100%; 
+margin:0 0 30px 0;
+}
+.CGym_content-70{ 
+padding:40px 0;
+}
+.site-footer .widget{ 
+padding:40px 0 20px;
+}
+.copyrigh-wrapper:before{ 
+display:none;
+}
+.sr-column-25{ 
+float:none; 
+width:100%;
+}
+.site-header{ 
+position:relative;
+}
+.blgimagebx{ 
+width:100%; 
+float:none; 
+margin:0 0 10px;
+}
+.about-imgbxleft{ 
+width:100%; 
+float:none; 
+margin-bottom:20px; 
+}
+.about-imgbxleft:after{
+width:85%;
+}
+.about-contentbxright{ 
+width: auto; 
+float:none; 
+}
+.about-contentbxright h3{ 
+line-height:30px;
+font-size:32px; 
+}
+h5.quote{ 
+font-size:22px; 
+line-height:24px;
+}
+#sidebar{ 
+width:100%; 
+float:none;
+}
+
+.CGym_content-70{
+ width:auto; 
+ float:none;
+ }
+#navigationpanel{ 
+text-align:left; 
+width:auto; 
+float:none; 
+padding:10px 0;
+}
+#navigationpanel span{ 
+display:block;
+}
+.fwcolumn-1, 
+.fwcolumn-2, 
+.fwcolumn-3, 
+.fwcolumn-4{ 
+float:none; 
+width:100%; 
+margin:0 0 5px; 
+padding:0; 
+text-align:left;
+}
+.site-footer .container{ 
+padding:0 20px;
+}
+.copyrigh-wrapper .container{ 
+padding:0 20px;
+}
+h2.section_title{ 
+font-size:34px; 
+margin-bottom:25px;
+}
+#site-sections3{ 
+padding:25px 0 10px; 
+margin:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"], 
+.wpcf7 textarea{ 
+width:100%;
+}
+#SiteWrapper{ 
+width:100%;
+}
+h2.services_title{ 
+font-size:30px;
+}
+.hdr_rightmenupart{ 
+float:none; 
+width:100%; 
+text-align:center;
+}
+#navigationpanel{ 
+background-color:transparent !important;
+}
+.site-header{ 
+height:auto;
+}
+.gridlayout .Bpostsbxstyle, 
+.fullwidth .Bpostsbxstyle{ 
+width:auto;
+float:none;
+margin:0 0  25px 0;
+padding:0;
+box-shadow:none;
+}
+
+#slider{ 
+top:0; 
+margin:0;
+}
+.nivo-caption{ 
+padding:0 20px; 
+width:90%;
+}
+.nivo-caption h2{ 
+font-size:24px !important; 
+line-height:24px !important; 
+margin:0 0 10px !important;
+}
+.nivo-caption p{ 
+font-size:14px;
+line-height:16px; 
+margin-bottom:20px;
+}
+.nivo-caption .slidermorebtn{ 
+font-size:12px;
+padding:5px 20px; 
+}
+.nivo-directionNav a{ 
+top:35% !important;
+}
+.nivo-controlNav{ 
+display:none !important;
+}
+a.nivo-prevNav{ 
+left:1%;
+}
+a.nivo-nextNav{
+right:1%;
+}
+h2.section_title{ 
+font-size:28px;
+}
+a.servicesemore{ 
+padding:10px 30px;
+}
+.sr-column-25 .iconbox{ 
+height:auto;
+}
+.sr-column-25 .iconbox img{ 
+min-height:auto;
+}
+.nivo-directionNav{ 
+display:none;
+top:35%;
+}
+/*.nivoSlider:hover .nivo-directionNav{ 
+	display:none;
+}*/
+.infobox{ 
+margin:0;
+}
+.video_title, 
+.video_description{ 
+float:none; 
+width:100%;
+margin-bottom:30px;
+}
+
+.video_title h2{ 
+font-size:30px; 
+line-height:30px;
+}
+#site-sections2{ 
+padding:50px 0;
+}
+.videoFullimg{ 
+height:auto;
+}
+.videobox .playbtn{ 
+width:50px; 
+height:50px;
+}
+.videobox .playbtn::after{ 
+line-height:50px; 
+font-size:16px;
+}
+#site-sections3 .container{ 
+margin:0; 
+background-color:transparent; 
+box-shadow:none;
+padding:30px 20px;
+}
+
+}
+
+/* Mobile Landscape View */
+@media screen and (min-width: 481px) and (max-width: 767px){
+*{box-sizing:border-box;}
+.nivo-controlNav{ 
+display:none !important;
+}
+.menu-toggle {
+top:20px;
+right:35px;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width: 980px){
+#navigationpanel{ 
+float:none; 
+width:100%; 
+text-align:left; 
+padding:10px 0;
+}
+.site-header{ 
+height:auto;
+}
+.hdr_rightmenupart{ 
+float:none;
+width:100%; 
+text-align:center;
+}
+.menu-toggle {
+top:20px;
+right:35px;
+}
+h2.section_title{ 
+font-size:30px;
+}
+
+.sr-column-25 h4{ 
+font-size:16px;
+}
+.video_description{ 
+margin-bottom:40px;
+}
+.video_title h2{ 
+font-size:45px; 
+line-height:45px;
+}
+.videoFullimg{ 
+height:auto;
+}
+.nivo-caption{ 
+padding:0 40px;
+}
+
+}
+
+/* Tablet View */
+@media screen and (max-width:1169px) and (min-width:768px) { 
+.container { 
+width:auto; 
+padding:0 20px;
+}
+/*slider css*/
+.nivo-caption{ 
+width:60%; 
+padding:0 20px; 
+}
+.nivo-caption h2{ 
+font-size:42px; 
+line-height:45px;
+}
+#SiteWrapper{ 
+width:100%;
+}
+#site-sections3 .container{ 
+margin-left:20px; 
+margin-right:20px;
+}
+
+}
+
+/* Tablet View */
+@media screen and (max-width:1169px) and (min-width:981px) { 
+*{box-sizing:border-box;}
+.logo{ 
+width:auto;
+}
+.video_title h2{ 
+font-size:50px; 
+line-height:50px;
+}
+.slidecaption-wp{ 
+top:60%;
+}
+a.nivo-prevNav {
+	left:0;
+}
+a.nivo-nextNav {
+	right:0;
+}
+.nivo-caption{ 
+width:70%; 
+padding:0 80px; 
+}
+.nivo-directionNav{ 
+top:65%;
+}
+.nivo-controlNav{ 
+left:7%;
+}
+.logo{ 
+width:25%;
+}
+.hdr_rightmenupart{ 
+max-width:70%;
+}
+
+}
+
+@media screen and (max-width: 980px){
+.site-header{ 
+position:relative;
+}
+.logo{ 
+position:relative;
+float:none; 
+width:auto;
+margin:0; 
+}
+.hdr-logo-menu{ 
+background-color:transparent !important;
+}
+.site-header.innerpage_header .hdr-logo-menu{ 
+box-shadow:0 3px 3px #f1f1f1;
+}
+#navigationpanel{ 
+padding:0; 
+display: inherit;
+}
+.logo:before{ 
+display:none;
+}
+.site-hdrmenu a{ 
+color:#fff;
+}
+.site-hdrmenu .menu ul a,
+.site-hdrmenu .menu ul ul a {
+padding: 0.75em 1.75em;
+}
+.hdr_rightmenupart{ 
+padding:0;
+}
+#navigationpanel{ 
+background-color:transparent;
+}
+.site-header.innerpage_header{ 
+box-shadow:none;
+}
+.hdr-logo-menu .container { 
+padding:0;
+}
+.logo{ 
+padding:20px;
+}
+.HeaderSlider::before{ 
+width:100%;
+}
+.about-imgbxleft::before, 
+.about-imgbxleft::after{ 
+display:none;
+}
+.about-imgbxleft img{ 
+width:auto; 
+margin:0; 
+min-height:inherit; 
+max-width:100%;
+}
+#site-sections1{ 
+padding:70px 0;
+}
+a.nivo-prevNav {
+	left:0;
+}
+a.nivo-nextNav {
+	right:0;
+}
+.site-hdrmenu .menu ul{ 
+background-color:transparent !important
+}
+.hdr_rightmenupart{ 
+max-width:inherit;
+}
+
+}
