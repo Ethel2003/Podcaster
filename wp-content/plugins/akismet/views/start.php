@@ -7,7 +7,9 @@
 <div id="akismet-plugin-container">
 	<div class="akismet-masthead">
 		<div class="akismet-masthead__inside-container">
-			<?php Akismet::view( 'logo' ); ?>
+			<div class="akismet-masthead__logo-container">
+				<img class="akismet-masthead__logo" src="<?php echo esc_url( plugins_url( '../_inc/img/logo-full-2x.png', __FILE__ ) ); ?>" alt="Akismet" />
+			</div>
 		</div>
 	</div>
 	<div class="akismet-lower">

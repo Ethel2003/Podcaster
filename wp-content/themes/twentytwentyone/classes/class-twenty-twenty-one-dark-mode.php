@@ -13,14 +13,14 @@
 class Twenty_Twenty_One_Dark_Mode {
 
 	/**
-	 * Instantiates the object.
+	 * Instantiate the object.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 */
 	public function __construct() {
 
 		// Enqueue assets for the block-editor.
-		add_action( 'enqueue_block_assets', array( $this, 'editor_custom_color_variables' ) );
+		add_action( 'enqueue_block_editor_assets', array( $this, 'editor_custom_color_variables' ) );
 
 		// Add styles for dark-mode.
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
@@ -45,7 +45,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Enqueues editor custom color variables & scripts.
+	 * Editor custom color variables & scripts.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
@@ -82,7 +82,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Enqueues scripts and styles.
+	 * Enqueue scripts and styles.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
@@ -100,7 +100,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Enqueues scripts for the customizer.
+	 * Enqueue scripts for the customizer.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
@@ -120,7 +120,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Registers customizer options.
+	 * Register customizer options.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
@@ -135,7 +135,7 @@ class Twenty_Twenty_One_Dark_Mode {
 		}
 
 		// Custom notice control.
-		require_once get_theme_file_path( 'classes/class-twenty-twenty-one-customize-notice-control.php' ); // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
+		include_once get_theme_file_path( 'classes/class-twenty-twenty-one-customize-notice-control.php' ); // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 
 		$wp_customize->add_setting(
 			'respect_user_color_preference_notice',
@@ -209,7 +209,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Calculates classes for the main <html> element.
+	 * Calculate classes for the main <html> element.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
@@ -234,8 +234,6 @@ class Twenty_Twenty_One_Dark_Mode {
 	 * Adds a class to the <body> element in the editor to accommodate dark-mode.
 	 *
 	 * @since Twenty Twenty-One 1.0
-	 *
-	 * @global WP_Screen $current_screen WordPress current screen object.
 	 *
 	 * @param string $classes The admin body-classes.
 	 * @return string
@@ -263,11 +261,9 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Determines if we want to print the dark-mode switch or not.
+	 * Determine if we want to print the dark-mode switch or not.
 	 *
 	 * @since Twenty Twenty-One 1.0
-	 *
-	 * @global bool $is_IE
 	 *
 	 * @return bool
 	 */
@@ -281,7 +277,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Adds night/day switch.
+	 * Add night/day switch.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
@@ -296,7 +292,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Prints the dark-mode switch HTML.
+	 * Print the dark-mode switch HTML.
 	 *
 	 * Inspired from https://codepen.io/aaroniker/pen/KGpXZo (MIT-licensed)
 	 *
@@ -356,7 +352,7 @@ class Twenty_Twenty_One_Dark_Mode {
 	}
 
 	/**
-	 * Prints the dark-mode switch script.
+	 * Print the dark-mode switch script.
 	 *
 	 * @since Twenty Twenty-One 1.0
 	 *
